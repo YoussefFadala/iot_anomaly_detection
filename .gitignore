@@ -1,0 +1,45 @@
+﻿# DATA — never commit raw or processed data
+data/raw/
+data/processed/
+data/splits/
+*.pcap
+*.log
+*.tar
+*.tar.gz
+*.gz
+*.csv
+*.parquet
+
+# MODELS — trained weights are large
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+
+# MLFLOW
+mlruns/
+mlartifacts/
+
+# PYTHON
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# JUPYTER
+.ipynb_checkpoints/
+
+# OS & EDITOR
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

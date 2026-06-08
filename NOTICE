@@ -1,0 +1,23 @@
+﻿THIRD-PARTY NOTICES
+===================
+
+scapy (v2.5.0) — GPL-2.0 License
+  https://github.com/secdev/scapy
+
+PyTorch (v2.2.2) — BSD-3-Clause License
+  https://github.com/pytorch/pytorch
+
+scikit-learn (v1.4.2) — BSD-3-Clause License
+  https://github.com/scikit-learn/scikit-learn
+
+MLflow (v2.12.2) — Apache-2.0 License
+  https://github.com/mlflow/mlflow
+
+SHAP (v0.45.0) — MIT License
+  https://github.com/shap/shap
+
+IoT-23 Dataset — Research use only. Cite:
+  Garcia, S., Parmisano, A. & Erquiaga, M.J. (2020).
+  IoT-23: A labeled dataset with malicious and benign IoT network traffic.
+  Stratosphere Lab, Czech Technical University.
+  Raw data is NOT redistributed in this repository.
