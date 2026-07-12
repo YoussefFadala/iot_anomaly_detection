@@ -6,10 +6,6 @@ numpy==1.26.4
 scikit-learn==1.4.2
 imbalanced-learn==0.12.3
 
-# ML — deep learning
-torch==2.2.2
-torchvision==0.17.2
-
 # Network / packet processing
 scapy==2.5.0
 pyshark==0.6
