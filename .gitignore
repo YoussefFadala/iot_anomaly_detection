@@ -1,45 +1,16 @@
-﻿# DATA — never commit raw or processed data
-data/raw/
-data/processed/
-data/splits/
-*.pcap
-*.log
-*.tar
-*.tar.gz
-*.gz
-*.csv
-*.parquet
-
-# MODELS — trained weights are large
-*.pt
-*.pth
-*.pkl
-*.joblib
-*.h5
-
-# MLFLOW
-mlruns/
-mlartifacts/
-
-# PYTHON
-__pycache__/
-*.py[cod]
-*.pyo
-.env
-.venv/
+# Environment
 venv/
-env/
-*.egg-info/
-dist/
-build/
-.pytest_cache/
+__pycache__/
+*.pyc
 
-# JUPYTER
-.ipynb_checkpoints/
+# Regenerable heavy outputs (available by re-running notebooks)
+outputs/processed/
+outputs/models/
 
-# OS & EDITOR
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.swp
+# Local planning scaffolds - not part of the submission
+*_SCAFFOLD*.md
+PROJECT_FRAMING_DRAFT.md
+REPORT_GUIDE.md
+LITERATURE_REVIEW_SOURCES.md
+LITREVIEW_TABLE_AND_FIGURES.md
+MITIGATION_MAPPING_REFERENCE.md
