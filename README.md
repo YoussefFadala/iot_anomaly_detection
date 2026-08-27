@@ -3,8 +3,7 @@
 Supervisor: Daniyal Haider — Nottingham Trent University
 
 ## Overview
-A comparison of four anomaly-detection algorithms (Isolation Forest,
-One-Class SVM, Autoencoder, Deep SAD) on the IoT-23 dataset.
+A comparison of two anomaly-detection algorithms ( Random Forest & Logistic Regression)  on the IoT-23 dataset.
 
 ## Requirements
 - Python 3.11+
